@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-v^vhjz8rsgpjri38qiv=)m02w_662fu&tj7%xgp*()uh_#oq3l'
 
 # Debug desligado para produção
-DEBUG = False
+DEBUG = True
 
 # Permitir o domínio do Easypanel
 ALLOWED_HOSTS = ['*']
