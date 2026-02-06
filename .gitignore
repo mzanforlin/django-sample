@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+# Como você está usando SQLite, é importante ignorar o arquivo local 
+# para não sobrescrever o banco de produção a cada deploy.
+db.sqlite3
+db.sqlite3-journal
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Static files
+staticfiles/
+/static/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
