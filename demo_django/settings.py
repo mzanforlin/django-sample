@@ -30,6 +30,11 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+# Substitua pelo seu domínio real do Easypanel
+CSRF_TRUSTED_ORIGINS = [
+    'https://crm-my-app.dejq6v.easypanel.host'
+]
+
 
 # Application definition
 
